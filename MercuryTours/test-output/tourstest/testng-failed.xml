@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [tourstest]">
+  <parameter name="browser" value="chrome"/>
   <test name="functinaltest(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.tours.test.LoginPageTest">
         <methods>
           <include name="login"/>
           <include name="setup"/>
-          <include name="openBrowser"/>
+          <include name="setup" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.tours.test.LoginPageTest -->
     </classes>

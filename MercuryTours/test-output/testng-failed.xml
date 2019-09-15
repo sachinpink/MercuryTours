@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [tourstest]">
+  <parameter name="browser" value="chrome"/>
+  <test name="functinaltest(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.tours.test.LoginPageTest">
         <methods>
           <include name="login"/>
           <include name="setup"/>
+          <include name="setup" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.tours.test.LoginPageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- functinaltest(failed) -->
+</suite> <!-- Failed suite [tourstest] -->
