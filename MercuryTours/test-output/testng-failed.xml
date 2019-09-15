@@ -9,7 +9,6 @@
         <methods>
           <include name="login"/>
           <include name="setup"/>
-          <include name="setup" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.tours.test.LoginPageTest -->
     </classes>
