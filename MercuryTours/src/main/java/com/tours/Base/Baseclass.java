@@ -14,7 +14,7 @@ public class Baseclass
 	
 	@Test
 	@Parameters("browser")
-	public void setup(String browser )
+	public void setup(String browser)
 	{
 		if(browser.equals("chrome"))
 		{
