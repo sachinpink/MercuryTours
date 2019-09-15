@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [tourstest]">
+  <test name="functinaltest(failed)">
+    <classes>
+      <class name="com.tours.test.LoginPageTest">
+        <methods>
+          <include name="login"/>
+          <include name="setup"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.tours.test.LoginPageTest -->
+    </classes>
+  </test> <!-- functinaltest(failed) -->
+</suite> <!-- Failed suite [tourstest] -->
